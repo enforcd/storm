@@ -3,7 +3,7 @@ Uses Open VPN to connect to a VPN
  * Something extremly simple
 
 # Use
- * Make a .NET Framework project in Visual Studio Code 2019
+ * Make a .NET Framework project in Visual Studio Code 2019 / C#
  * Paste code into Form
  * in "--config server.opvn" you must change the "server" text to the name of your server
    * Example: "-- config enforcd.usa.ovpn"
@@ -11,7 +11,7 @@ Uses Open VPN to connect to a VPN
       * **Trusted VPN Services**
       * [Nuclear Fallout](https://www.nfoservers.com/)
       * [OVH](https://www.ovh.com/world/)
- * change the name of the buttons
+ * Must change the name of the buttons and other corresponding items to fit the names on your .NET Form
    * where it says "guna2button___" or "Method___"
-   * Feel free to change what ever you want
- * Must run in admin mode for the script to work
+   * change nameform to the form of your own .NET Framework Project
+
